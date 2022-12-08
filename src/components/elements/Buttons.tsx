@@ -1,21 +1,22 @@
 import styled from "styled-components";
 
 export const Primary_Button = styled.a`
+    font-size: 2rem;
     cursor: pointer;
     display: inline-block;
     color: #fff;
     background-color: var(--bg-blue);
     padding: .5rem 2rem;
-    border: 1.5px solid #000;
+    border: 2px solid #000;
     transition: all .2s ease-out;
 
     &:hover {
-        transform: translate(-2px, -2px);
-        box-shadow: 2px 2px #000;
+        transform: translate(-5px, -5px);
+        box-shadow: 5px 5px #000;
     }
 
     &:active {
-        transform: translate(-1px, -1px);
-        box-shadow: 1px 1px #000;
+        transform: translate(-3px, -3px);
+        box-shadow: 3px 3px #000;
     }
 `
