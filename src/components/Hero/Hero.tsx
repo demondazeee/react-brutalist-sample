@@ -9,7 +9,7 @@ import NavBar from "../NavBar/NavBar"
 
 const NavHeader = styled.header`
     border-bottom: 2px solid #000;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 `
 const HeroGrid = styled.div`
 
@@ -34,13 +34,14 @@ const HeroButton = styled.div``
 
 const HeroCard = styled(Card)`
     border-radius: .5rem;
-    max-width: 15rem;
+    max-width: 25rem;
+    min-height: 30rem;
     position: relative;
     padding: 1rem 2rem;
 
-    & > *:not(:last-child){
-        margin-bottom: 10px;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 `
 const HeroCard2 = styled(HeroCard)`
     background-color: #E11845;
@@ -73,7 +74,7 @@ const Hero = () =>{
             <Header>
                 <HeroGrid>
                     <HeroItems>
-                        <H1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, possimus.</H1>
+                        <H1>Lorem ipsum dolor sit amet.</H1>
                         <P1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, porro.</P1>
                         <HeroButton>
                             <Primary_Button>Sign Up</Primary_Button>
@@ -81,7 +82,7 @@ const Hero = () =>{
                     </HeroItems>
                     <HeroItems2>
                         <HeroCard>
-                            <H2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</H2>
+                            <H2>Lorem ipsum dolor sit amet.</H2>
                             <P1>Lorem ipsum dolor sit amet.</P1>
                             <HeroCard2 />
                             <HeroCard3 />

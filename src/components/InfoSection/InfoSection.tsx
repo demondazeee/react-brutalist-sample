@@ -14,13 +14,14 @@ const InfoSectionContainer = styled(Section)`
 `
 
 const InfoCard = styled(Card)`
-    flex-basis: 40rem;
+
+    flex-basis: 60rem;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: 5px 5px var(--color-black);
 
     & > *:not(:last-child){
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 `
 
