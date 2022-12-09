@@ -17,6 +17,7 @@ const FeaturesContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
+
 `
 
 const FeaturesItem = styled.div`
@@ -52,7 +53,6 @@ const FeaturesSection = () =>{
     return (
         <>
             <FeaturesSectionContainer>
-                <Container>
                     <FeaturesContainer>
                         <FeaturesItem>
                             <ImageContainer>
@@ -72,7 +72,6 @@ const FeaturesSection = () =>{
                                 <FeatureImg src="img2.jpg" />
                             </ImageContainer>
                         </FeaturesItem2>
-
                         <FeaturesItem>
                             <ImageContainer>
                                 <FeatureImg src="img3.jpg" />
@@ -83,7 +82,6 @@ const FeaturesSection = () =>{
                            <P1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis recusandae debitis facere animi voluptate repellendus provident labore accusamus iusto.</P1>
                         </FeaturesItem2>
                     </FeaturesContainer>
-                </Container>
             </FeaturesSectionContainer>
         </>
     )
